@@ -6,8 +6,6 @@ With this project we will be creating a new [Tanstack Start](https://tanstack.co
 
 ## Tasks
 
-### Project Setup
-
 - [ ] Create a new Tanstack Start project from scratch
 - [ ] Deploy the application to [Railway](https://railway.app/)
 - [ ] Add [Biome](https://biomejs.dev/) for linting
@@ -18,6 +16,16 @@ With this project we will be creating a new [Tanstack Start](https://tanstack.co
 - [ ] Add default `Error Page`
 - [ ] Add default `Not Found Page`
 - [ ] Add a dynamic route
+- [ ] Add default `Error Page`
+- [ ] Add default `Not Found Page`
+- [ ] Manage Forms
+- [ ] Manage asynchronous data
+- [ ] Database connection
+- [ ] ORM
+- [ ] Auth
+    - [ ] Authentication
+    - [ ] Authorization
+- [ ] Testing
 
 ## Stack
 
