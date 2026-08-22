@@ -40,8 +40,8 @@ With this project we will be creating a new [Tanstack Start](https://tanstack.co
 ## Installation Instructions
 
 ```bash
-git clone https://github.com/alcb1310/tanstack-start.git
-cd tanstack-start
+git clone https://github.com/alcb1310/roundtable-tanstack-start.git
+cd roundtable-tanstack-start
 pnpm install
 pnpm dev
 ```
