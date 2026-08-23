@@ -6,7 +6,7 @@ With this project we will be creating a new [Tanstack Start](https://tanstack.co
 
 ## Tasks
 
-- [ ] Create a new Tanstack Start project from scratch
+- [x] Create a new Tanstack Start project from scratch
 - [ ] Deploy the application to [Railway](https://railway.app/)
 - [ ] Add [Biome](https://biomejs.dev/) for linting
 - [ ] Use [TailwindCSS](https://tailwindcss.com/) and [Shadcn/ui](https://ui.shadcn.com/) for styling
