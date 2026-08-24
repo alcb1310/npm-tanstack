@@ -7,7 +7,10 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"dev": "vite dev",
 		"build": "vite build",
-		"start": "node .output/server/index.mjs"
+		"start": "node .output/server/index.mjs",
+		"biome:format": "biome format --write",
+		"biome:lint": "biome lint --write",
+		"biome:all": "biome check --write"
 	},
 	"repository": {
 		"type": "git",
@@ -27,6 +30,7 @@
 		"react-dom": "^19.2.8"
 	},
 	"devDependencies": {
+		"@biomejs/biome": "2.5.10",
 		"@types/node": "^26.2.0",
 		"@types/react": "^19.2.18",
 		"@types/react-dom": "^19.2.4",
