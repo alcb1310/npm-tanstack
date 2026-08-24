@@ -27,7 +27,7 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
 			<head>
 				<HeadContent />
 			</head>
-			<body>
+			<body className='bg-blue-300'>
 				{children}
 				<Scripts />
 			</body>
