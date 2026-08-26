@@ -1,5 +1,6 @@
 import { createRootRoute, HeadContent, Scripts } from '@tanstack/react-router'
 import type { ReactNode } from 'react'
+import appCss from '../styles.css?url'
 
 export const Route = createRootRoute({
 	head: () => ({
@@ -15,6 +16,7 @@ export const Route = createRootRoute({
 				title: 'TanStack Start Starter',
 			},
 		],
+		links: [{ rel: 'stylesheet', href: appCss }],
 	}),
 	shellComponent: RootDocument,
 })
@@ -25,7 +27,7 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
 			<head>
 				<HeadContent />
 			</head>
-			<body>
+			<body className='bg-blue-300'>
 				{children}
 				<Scripts />
 			</body>
